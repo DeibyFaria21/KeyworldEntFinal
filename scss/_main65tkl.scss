@@ -27,7 +27,7 @@ main{
             background-color: $color-bg-tablet;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: 768px) and (max-width: 1599px){
         .cajaimgtextprod1{
             display: flex;
             justify-content: space-around;
@@ -51,6 +51,34 @@ main{
             border: solid $color-border-1;
             border-radius: 20px;
             background-color: $color-bg-pc;
+        }
+    }
+    @media (min-width: 1600px){
+        .cajaimgtextprod1{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+            font-size: 1.4rem;
+        }
+        .cajaimgtextprod2{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+            font-size: 1.4rem;
         }
     }
 }

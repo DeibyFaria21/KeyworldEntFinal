@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
     background-color: #b7a2dd; } }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1599px) {
   main .cajaimgtextprod1 {
     display: flex;
     justify-content: space-around;
@@ -349,6 +349,32 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
     background-color: #212529; } }
 
+@media (min-width: 1600px) {
+  main .cajaimgtextprod1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    color: whitesmoke;
+    border: solid #147550;
+    border-radius: 20px;
+    background-color: #212529;
+    font-size: 1.4rem; }
+  main .cajaimgtextprod2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    color: whitesmoke;
+    border: solid #147550;
+    border-radius: 20px;
+    background-color: #212529;
+    font-size: 1.4rem; } }
+
 @media (min-width: 320px) and (max-width: 767px) {
   main .cajatarjetas {
     display: flex;
@@ -369,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #adc9da;
       border: solid #4c5bb1; } }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   main .cajatarjetas {
     display: flex;
     justify-content: space-around;
@@ -380,16 +406,38 @@ h1, h2, h3, h4, h5, h6 {
     color: whitesmoke;
     border: solid #147550;
     border-radius: 20px;
-    background-color: #212529;
-    /* background-color: rgb(18, 18, 18); */ }
+    background-color: #212529; }
     main .cajatarjetas .encabezado .textofz {
       margin: 20px;
       text-decoration: underline;
       text-align: center; }
     main .cajatarjetas .card {
       background-color: #4e695f;
-      /* background-color: $color-bg-pc; */
-      border: solid #147550; } }
+      border: solid #147550; }
+      main .cajatarjetas .card .card-text {
+        font-size: 0.9rem; } }
+
+@media (min-width: 1200px) {
+  main .cajatarjetas {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    color: whitesmoke;
+    border: solid #147550;
+    border-radius: 20px;
+    background-color: #212529; }
+    main .cajatarjetas .encabezado .textofz {
+      margin: 20px;
+      text-decoration: underline;
+      text-align: center; }
+    main .cajatarjetas .card {
+      background-color: #4e695f;
+      border: solid #147550; }
+      main .cajatarjetas .card .card-text {
+        font-size: 1.2rem; } }
 
 .formulario {
   display: flex;
