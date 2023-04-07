@@ -1,0 +1,85 @@
+main{
+    @media (min-width: 320px) and (max-width: 767px){
+        .cajaimgtextproda{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: rgb(14, 53, 138);
+            border: solid $color-border-2;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+        }
+        .cajaimgtextprodb{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            padding-left: 25px;
+            padding-right: 0;
+            color: rgb(14, 53, 138);
+            border: solid $color-border-2;
+            border-radius: 20px;
+            background-color: $color-bg-tablet;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1599px){
+        .cajaimgtextproda{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+        }
+        .cajaimgtextprodb{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+        }
+    }
+    @media (min-width: 1600px){
+        .cajaimgtextproda{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+            font-size: 1.4rem;
+        }
+        .cajaimgtextprodb{
+            display: flex;
+            justify-content: space-around;
+            margin: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding: 1%;
+            color: whitesmoke;
+            border: solid $color-border-1;
+            border-radius: 20px;
+            background-color: $color-bg-pc;
+            font-size: 1.4rem;
+        }
+    }
+}
