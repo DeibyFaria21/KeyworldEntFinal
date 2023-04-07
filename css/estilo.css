@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: JosefinSans-Medium;
-  src: url("../FONTS/Josefin_Sans/JosefinSans-Medium.ttf"); }
+  src: url("../fonts/Josefin_Sans/JosefinSans-Medium.ttf"); }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kanit', sans-serif; }
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   header .banner {
     border: solid #4c5bb1;
     border-radius: 10px;
-    background-image: url("../IMAGES/tecladobanner2.png");
+    background-image: url("../images/tecladobanner2.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   header .banner {
     border: solid #147550;
     border-radius: 10px;
-    background-image: url("../IMAGES/tecladobanner.jpg");
+    background-image: url("../images/tecladobanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
